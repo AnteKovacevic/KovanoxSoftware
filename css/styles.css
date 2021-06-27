@@ -1,0 +1,233 @@
+/* ===============================
+   Author: Ante Kovačević
+   Date:   04.03.2021.
+   
+   Colour Palette:
+   ---------------
+   Light Cream:		#f2f3ee
+   Orange:			#d17f38
+   Yellow:			#e8c04f
+   Brown:			#4b2707
+   =============================== */
+
+/* General */
+
+body {
+   background: #495057;
+   color: #c2c2c2;
+   font-size: 14px;
+   font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial sans-serif;
+   -webkit-font-smoothing: antialiased;
+   text-rendering: optimizelegibility;  
+}
+
+.container {
+   width: 924px;
+   margin: 0 auto;
+   padding: 30px 24px;
+   border-right: dashed 5px #2f3136;
+   border-left: dashed 5px #2f3136;
+
+}
+
+.container-logo {
+   width: 924px;
+   margin: 0 auto;
+   padding: 0px 24px;
+   border-top: solid 5px #2f3136;
+   border-right: solid 5px #2f3136;
+   border-left: solid 5px #2f3136;
+}
+
+/* Typography */
+
+h1, h2 {
+   color: #c2c2c2;
+   font-size: 40px;
+   font-weight: normal;
+   font-family: 'Love Ya Like A Sister', cursive;
+   line-height: 44px;
+   margin: 0;
+}
+
+h1 {
+   text-align: center;
+   padding: 0 0 20px;
+   background: url('../images/header-divider.png') bottom center no-repeat;
+}
+
+h1 em {
+   font-style: normal;
+   color: #c2c2c2;
+}
+
+h2 {
+   font-size 34px;
+}
+
+h3 {
+   margin: 0;
+}
+
+p.lead {
+   font-size: 30px;
+   font-weight: 300;
+   text-align: center;
+   margin: 10px 0;
+}
+
+p {
+   margin: 0;
+}
+
+a:link {
+   color: #d17f38;
+}
+
+a:visited {
+   color: #d17f38;
+}
+
+a:hover {
+   color: #4b2707;
+}
+
+hr {
+   border: none;
+   height: 33px;
+   width: 333px;
+   margin: 30px auto;
+   background: url('../images/divider.png') center center no-repeat;
+}
+
+/* Header */
+
+header nav {
+   text-align: center;
+   background: #2f3136;
+}
+
+header nav ul {
+   margin: 0;
+   padding: 0;
+   list-style: none;
+   display: block;
+   line-height: 50px;
+}
+
+header nav ul li {
+   display: inline-block;
+}
+
+header nav ul li a {
+   text-transform: uppercase;
+   text-decoration: none;
+   font-weight: bold;
+   font-size: 18px;
+   padding: 10px 30px 12px 30px;
+}
+
+header nav ul li a:hover {
+   color: #4b2707;
+   background: #d17f38;
+}
+
+header nav ul li a:active {
+   color: #4b2707;
+   background: #d17f38;
+}
+
+/* Hero */
+
+#hero {
+   background: #495057;
+}
+
+.logo-middle {
+   text-align: center;
+}
+
+/* The Whole Story */
+
+#story-excerpt {
+   width: 530px;
+   margin-right: 24px;
+   float: left;
+   font-size: 16px;
+}
+
+#best-donut {
+   background: url('../images/KovanoxLogo.png') left center no-repeat;
+   padding: 30px 0px 20px 70px;
+   float: left;
+   width: 240px;
+}
+
+/* News & Events */
+
+#news1 {
+   text-align: center;
+}
+
+#articles {
+   width: 370px;
+   float: left;
+   margin-right: 24px;
+}
+
+#feature-image {
+   width: 530px;
+   float: left;
+   padding-top: 50px
+}
+
+#news-events article {
+   margin: 20px 0;
+   padding-left: 55px;
+}
+
+#news-events article.news {
+   background: url('../images/icon-news.png') top left no-repeat;
+}
+
+#news-events article.event {
+   background: url('../images/icon-news.png') top left no-repeat;
+}
+
+#news-events header time {
+   color: #c2c2c2;
+   font-size: 12px; 
+}
+
+#news-events section.excerpt {
+   margin: 10px 0;
+}
+
+#news-events footer {
+   font-size: 12px;
+}
+
+/* Footer */
+
+footer.main {
+   background: #2f3136;
+   color: #f2f3ee;
+   text-align: center;
+}
+
+/* Force Elements to Self Clear its Children: http://css-tricks.com/snippets/css/clear-fix/ */
+
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	content: "";
+	clear: both;
+	height: 0;
+	}
+* html .group             { zoom: 1; } /* IE6 */
+*:first-child+html .group { zoom: 1; } /* IE7 */
+
+
+
+
+
